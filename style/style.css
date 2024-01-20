@@ -1,0 +1,100 @@
+li a{
+  display: inline-block;
+  padding:8px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration:none;
+  color:white;
+  font-weight:2;
+  font-size:30px;
+}
+
+li{
+ float:right;
+ 
+}
+#Team{height:400px;background-position:center;}
+ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  overflow:hidden;
+  
+}
+#Discord{font-family: 'Montserrat', sans-serif;}
+#user{font-family: 'Montserrat', sans-serif;color:white;font-size:100px;height:100px;position:absolute;top:140%;}
+.dot {
+  height: 190px;
+  width: 190px;
+  background-image: url("https://img.rec.net/7242ft9d5czywszsjwxnx6s08.jpg?cropSquare=true&width=192&height=192");
+  border-radius: 50%;
+  display: inline-block;
+  position:absolute;
+  text-align:center;
+  left:70%;
+  top:145%;
+  background-repeat:repeat-y;
+}
+
+.navlinks li a{
+  transition all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+  color:#0088a9
+}
+
+button{
+  padding:9px 25px;
+  background-color:purple; 
+  border:none;
+  border-radius:50px;
+  cursor:pointer;
+  transition: all 0.3s ease 0s;
+  -webkit-box-shadow:0px 0px 105px 45px rgba(220,46,255,0.9);
+  -moz-box-shadow: 0px 0px 105px 45px rgba(220,46,255,0.9);
+  box-shadow: 0px 0px 105px 45px rgba(220,46,255,0.9);
+  position:absolute;
+  left:46%;
+  height:5%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+}
+button:hover{ background-color:#ff00ff}
+
+#ab{font-family: 'Montserrat', sans-serif;font-size:300%;color:white;text-align:center}
+#desc{font-family: 'Montserrat', sans-serif;font-size:200%;color:white;text-align:center}                       
+
+.Home{
+  background-image:url("b1.jpg");
+  height:1000px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+#Discord{height:400px;background-image:url("dcbanner.jpg");-webkit-box-shadow:0px 0px 79px 28px rgba(255,0,238,0.9);
+-moz-box-shadow: 0px 0px 79px 28px rgba(255,0,238,0.9);
+box-shadow: 0px 0px 79px 28px rgba(255,0,238,0.9);}
+#About{height:30%;background-image:url("bgabout.jpg");-webkit-box-shadow:0px 0px 105px 45px rgba(227,227,227,0.9);
+-moz-box-shadow: 0px 0px 105px 45px rgba(227,227,227,0.9);
+box-shadow: 0px 0px 105px 45px rgba(227,227,227,0.9);display:block;}
+
+#dclogo{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	width: 15%;
+	cursor:pointer;
+	
+}
+
+
+#gamelog{
+	position:absolute;
+	height:40%;
+	width:32%;
+	top:190%;
+	left:35%;
+	background-image:url("Gamepic/0.png");
+}
